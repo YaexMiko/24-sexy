@@ -151,7 +151,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("Click here", url=link)],
                     [InlineKeyboardButton('How to use the bot', url=full_tut_url)]
                 ]
-                await message.reply(f"Baka You Already Use Your 15 Hour Token That's Why Your Token Is Expired, You Have To Take New Token And Then Try Again.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis Is An Ads Token. If You Bypass 3 Page Adds Than You Can Use The Bot For 15 Hour After Passing The Adds.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                await message.reply(f"𝑩𝒂𝒌𝒂 𝒀𝒐𝒖 𝑨𝒍𝒓𝒆𝒂𝒅𝒚 𝑼𝒔𝒆 𝒀𝒐𝒖𝒓 1⃣5⃣ 𝑯𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏 𝑻𝒉𝒂𝒕'𝒔 𝑾𝒉𝒚 𝒀𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏 𝑰𝒔 𝑬𝒙𝒑𝒊𝒓𝒆𝒅, 𝒀𝒐𝒖 𝑯𝒂𝒗𝒆 𝑻𝒐 𝑻𝒂𝒌𝒆 𝑵𝒆𝒘 𝑻𝒐𝒌𝒆𝒏 𝑨𝒏𝒅 𝑻𝒉𝒆𝒏 𝑻𝒓𝒚 𝑨𝒈𝒂𝒊𝒏.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis Is An Ads Token. If You Bypass 3 Page Adds Than You Can Use The Bot For 15 Hour After Passing The Adds.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
 
 # ... (rest of the code remains unchanged))
 
