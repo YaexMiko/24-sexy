@@ -63,7 +63,7 @@ async def start_command(client: Client, message: Message):
             await update_verify_status(id, is_verified=True, verified_time=time.time())
             if verify_status["link"] == "":
                 reply_markup = None
-            await message.reply(f"Your token successfully verified and valid for: 14 Hour", reply_markup=reply_markup, protect_content=False, quote=True)
+            await message.reply(f"𝑩𝒂𝒌𝒂 𝒀𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏 𝑰𝒔 𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍𝒍𝒚 𝑽𝒆𝒓𝒊𝒇𝒊𝒆𝒅 𝑨𝒏𝒅 𝑽𝒂𝒍𝒊𝒅 𝑭𝒐𝒓: 15 𝑯𝒐𝒖𝒓", reply_markup=reply_markup, protect_content=False, quote=True)
 
         elif len(message.text) > 7 and verify_status['is_verified']:
             try:
@@ -151,7 +151,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("Click here", url=link)],
                     [InlineKeyboardButton('How to use the bot', url=full_tut_url)]
                 ]
-                await message.reply(f"𝑩𝒂𝒌𝒂 𝒀𝒐𝒖 𝑨𝒍𝒓𝒆𝒂𝒅𝒚 𝑼𝒔𝒆 𝒀𝒐𝒖𝒓 1⃣5⃣ 𝑯𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏 𝑻𝒉𝒂𝒕'𝒔 𝑾𝒉𝒚 𝒀𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏 𝑰𝒔 𝑬𝒙𝒑𝒊𝒓𝒆𝒅, 𝒀𝒐𝒖 𝑯𝒂𝒗𝒆 𝑻𝒐 𝑻𝒂𝒌𝒆 𝑵𝒆𝒘 𝑻𝒐𝒌𝒆𝒏 𝑨𝒏𝒅 𝑻𝒉𝒆𝒏 𝑻𝒓𝒚 𝑨𝒈𝒂𝒊𝒏.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis Is An Ads Token. If You Bypass 3 Page Adds Than You Can Use The Bot For 15 Hour After Passing The Adds.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                await message.reply(f"𝑩𝒂𝒌𝒂 𝒀𝒐𝒖 𝑨𝒍𝒓𝒆𝒂𝒅𝒚 𝑼𝒔𝒆 𝒀𝒐𝒖𝒓 15 𝑯𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏 𝑻𝒉𝒂𝒕'𝒔 𝑾𝒉𝒚 𝒀𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏 𝑰𝒔 𝑬𝒙𝒑𝒊𝒓𝒆𝒅, 𝒀𝒐𝒖 𝑯𝒂𝒗𝒆 𝑻𝒐 𝑻𝒂𝒌𝒆 𝑵𝒆𝒘 𝑻𝒐𝒌𝒆𝒏 𝑨𝒏𝒅 𝑻𝒉𝒆𝒏 𝑻𝒓𝒚 𝑨𝒈𝒂𝒊𝒏.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\n𝑾𝒉𝒂𝒕 𝑰𝒔 𝑻𝒉𝒆 𝑻𝒐𝒌𝒆𝒏?\n\n𝑻𝒉𝒊𝒔 𝑰𝒔 𝑨𝒏 𝑨𝒅𝒔 𝑻𝒐𝒌𝒆𝒏. 𝑰𝒇 𝒀𝒐𝒖 𝑩𝒚𝒑𝒂𝒔𝒔 3 𝑷𝒂𝒈𝒆 𝑨𝒅𝒅𝒔 𝑻𝒉𝒂𝒏 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑼𝒔𝒆 𝑻𝒉𝒆 𝑩𝒐𝒕 𝑭𝒐𝒓 15 𝑯𝒐𝒖𝒓 𝑨𝒇𝒕𝒆𝒓 𝑷𝒂𝒔𝒔𝒊𝒏𝒈 𝑻𝒉𝒆 𝑨𝒅𝒅𝒔.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
 
 # ... (rest of the code remains unchanged))
 
@@ -172,8 +172,8 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Baka Join1", url=client.invitelink),
-            InlineKeyboardButton(text="Baks Join2", url=client.invitelink2),
+            InlineKeyboardButton(text="⚡𝐽𝑜𝑖𝑛 𝐶𝒉𝑎𝑛𝑛𝑒𝑙 1⚡", url=client.invitelink),
+            InlineKeyboardButton(text="⚡𝐽𝑜𝑖𝑛 𝐶𝒉𝑎𝑛𝑛𝑒𝑙 2⚡", url=client.invitelink2),
         ]
     ]
     try:
