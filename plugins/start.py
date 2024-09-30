@@ -59,7 +59,7 @@ async def start_command(client: Client, message: Message):
         if "verify_" in message.text:
             _, token = message.text.split("_", 1)
             if verify_status['verify_token'] != token:
-                return await message.reply("Your token is invalid or Expired. Try again by clicking /start")
+                return await message.reply("𝑩𝒂𝒌𝒂 𝒀𝒐𝒖𝒓 𝑻𝒐𝒌𝒆𝒏 𝑰𝒔 𝑰𝒏𝒗𝒂𝒍𝒊𝒅 𝑶𝒓 𝑬𝒙𝒑𝒊𝒓𝒆𝒅 𝑻𝒓𝒚 𝑨𝒈𝒂𝒊𝒏 𝑩𝒚 𝑪𝒍𝒊𝒄𝒌𝒊𝒏𝒈 /start")
             await update_verify_status(id, is_verified=True, verified_time=time.time())
             if verify_status["link"] == "":
                 reply_markup = None
