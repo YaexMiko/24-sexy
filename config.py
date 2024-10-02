@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7472767278:AAE_Pzs9kLREfsQkfl3OejGXxioeLoc6iHk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7472767278:AAGFRjFUk05sKHbtHw9-uYVt_Z7MzfJAkQQ")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29759992"))
@@ -31,9 +31,9 @@ PORT = os.environ.get("PORT", "3000")
 DB_URI = "mongodb+srv://Akane:aloksingh@akane.wg38x.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "044f498e2704ac51ba8ca9a2d774cb8366049aee")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "04b62b21ebf3a66868b6d5d711d0c11ac0ebab87")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 84600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
