@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "3000")
 DB_URI = "mongodb+srv://Akane:aloksingh@akane.wg38x.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "04b62b21ebf3a66868b6d5d711d0c11ac0ebab87")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "moaninglinks.rglinks.net")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "d66e447321d5ad58cecfb77ee9b17a509ce3475d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 84600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
