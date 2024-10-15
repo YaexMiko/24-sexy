@@ -147,44 +147,12 @@ async def start_command(client: Client, message: Message):
                 link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API,f'https://telegram.dog/{client.username}?start=verify_{token}')
                 btn = [
                     [InlineKeyboardButton("Click here", url=link)],
-                    [InlineKeyboardButton('Take Prime Subscription', url=full_tut_url)],
+                    [InlineKeyboardButton('How to use the bot', url=full_tut_url)]
                 ]
                 await message.reply(f"Your Ads token is expired, refresh your token and try again.\n\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nWhat is the token?\n\nThis is an ads token. If you pass 1 ad, you can use the bot for 24 Hour after passing the ad.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
 
 # ... (rest of the code remains unchanged))
-# Define the message text 
-message_text = """
-👋 Hey 『𝑨𝒍𝒚𝒂 𝒙 𝒀𝒖𝒌𝒊•』❋𝄗⃝🦋
 
-🎖️ Available Plans :
-
-● 30 rs For 7 Days Prime Membership
-● 110 rs For 1 Month Prime Membership
-● 299 rs For 3 Months Prime Membership
-● 550 rs For 6 Months Prime Membership
-● 999 rs For 1 Year Prime Membership
-
-💵 UPI ID - LaysBabu@slice (Tap to copy UPI Id)
-
-📸 QR - ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ
-
-♻️ If payment is not getting sent on the above given QR code, inform the admin, and they will provide a new QR code.
-
-‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ
-"""
-
-# Create the buttons
-buttons = [
-    [InlineKeyboardButton("Copy UPI ID", callback_data='copy_upi')],
-    [InlineKeyboardButton("Scan QR Code", url="https://example.com/qr-code-link")],
-    [InlineKeyboardButton("Contact Admin", url="https://t.me/admin_username")]
-]
-
-# Create a keyboard with the buttons
-keyboard = InlineKeyboardMarkup(buttons)
-
-# Send the message with the inline keyboard
-bot.send_message(chat_id=chat_id, text=message_text, reply_markup=keyboard)
 
     
         
