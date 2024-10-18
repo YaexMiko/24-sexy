@@ -144,7 +144,7 @@ async def start_command(client: Client, message: Message):
             if IS_VERIFY and not verify_status['is_verified']:
                 short_url = f"api.shareus.io"
                 full_tut_url = f"https://t.me/how_to_hentai/21"
-                full_tut_url1 = f"https://t.me/c/2241958186/5"
+                full_tut_url1 = f"https://t.me/+PY35ZUH_GEQ4MmIx"
                 token = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
                 await update_verify_status(id, verify_token=token, link="")
                 link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API,f'https://telegram.dog/{client.username}?start=verify_{token}')
