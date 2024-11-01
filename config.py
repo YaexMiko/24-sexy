@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1345506970"))
 PORT = os.environ.get("PORT", "4180")
 
 #Database 
-DB_URI = "mongodb+srv://dextin:zaxscd123@leakedjalwa.9yauwbt.mongodb.net/?retryWrites=true&w=majority&appName=LeakedJalwa"
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = "mongodb+srv://trisun62767:Royal123@cluster0.g5ahoeq.mongodb.net"
+DB_NAME = os.environ.get("DATABASE_NAME", "SUPERHERE-DB")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "1c97583b9a15f5af9134df1c5fdd882e8059ebcd")
